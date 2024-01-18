@@ -1,0 +1,105 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em; /* Adjusted height */
+}
+h1 {
+    margin: 0;
+}
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px; /* Added margin at the bottom */
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+nav a:hover {
+    color: #808080; /* Change the color on hover to gray */
+}
+.name {
+    color: #fff;
+    font-size: 1em; /* Adjusted size */
+    margin: 0;
+    display: inline-block
+}
+.position {
+    font-size: 0.5em; /* Adjusted size */
+    margin: 0;
+    display: block;
+    color: #ddd; /* Dark gray color */
+}
+section {
+    max-width: 800px;
+    margin: 20px auto; /* Add margin to the top */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h2, h3 {
+    color: #333;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    margin-bottom: 10px;
+}
+.project {
+    margin-bottom: 20px;
+}
+.contact,
+.soft-skills,
+.extra-curriculars {
+    margin-top: 20px;
+}
+.certification {
+    margin-bottom: 20px;
+}
+.skill-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em; /* Adjusted padding back to earlier size */
+    width: 100%;
+    margin-top: 20px;
+}
+.github-link,
+.certification-link,
+.soft-skill-item,
+.extra-curricular-item {
+    color: #4CAF50; /* Green color, you can adjust the hex code as needed */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.github-link:hover,
+.certification-link:hover,
+.soft-skill-item:hover,
+.extra-curricular-item:hover {
+    color: #2E7D32; /* Darker green on hover */
+}
